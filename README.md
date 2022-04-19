@@ -4,9 +4,17 @@ This package extends Laravel's `Fluent` class to provide a
 supercharged experience like type casting and recursive
 Fluent access to sub-assocs.
 
+## Installation
+
+Use composer to grep the package :  
+
+```
+composer require wp-grogu/laravel-fluent-plus
+```
+
 ## Basic usage
 Instead of extending `Illuminate\Support\Fluent` you extend
-`JanPantel\LaravelFluentPlus\FluentPlus` instead. As this
+`Grogu\FluentPlus\FluentPlus` instead. As this
 class is a superset of Fluent it can be treated as a drop
 in replacement.
 
