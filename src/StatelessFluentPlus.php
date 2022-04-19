@@ -98,10 +98,10 @@ class StatelessFluentPlus extends Fluent
                 $transformer = function ($castDefinition, $value) use ($isRecursive) {
                     if ($isRecursive && is_array($value)) {
                         if (Arr::isAssoc($value)) {
-                            return new FluentPlus($value);
+                            return new static($value);
                         } else {
                             return collect($value)->map(function ($child) {
-                                return is_array($child) ? new FluentPlus($child) : $child;
+                                return is_array($child) ? new static($child) : $child;
                             });
                         }
                     }
@@ -217,7 +217,7 @@ class StatelessFluentPlus extends Fluent
         return empty($this->attributes);
     }
 
-    
+
     /**
      * Returns true if the Fluent is not empty, false otherwise
      *
