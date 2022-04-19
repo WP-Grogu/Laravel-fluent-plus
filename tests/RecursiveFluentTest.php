@@ -1,10 +1,10 @@
 <?php
 
-namespace Tests\JanPantel\LaravelFluentPlus;
+namespace Tests\Grogu\FluentPlus;
 
 
-use JanPantel\LaravelFluentPlus\FluentPlus;
-use JanPantel\LaravelFluentPlus\NonRecursiveFluentPlus;
+use Grogu\FluentPlus\FluentPlus;
+use Grogu\FluentPlus\NonRecursiveFluentPlus;
 use PHPUnit\Framework\TestCase;
 
 class RecursiveFluentTest extends TestCase

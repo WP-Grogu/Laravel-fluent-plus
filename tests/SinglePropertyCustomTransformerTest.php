@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests\JanPantel\LaravelFluentPlus;
+namespace Tests\Grogu\FluentPlus;
 
-use JanPantel\LaravelFluentPlus\FluentPlus;
-use JanPantel\LaravelFluentPlus\Transformers\SinglePropertyTransformer;
+use Grogu\FluentPlus\FluentPlus;
+use Grogu\FluentPlus\Transformers\SinglePropertyTransformer;
 use PHPUnit\Framework\TestCase;
 
 class SinglePropertyCustomTransformerTest extends TestCase

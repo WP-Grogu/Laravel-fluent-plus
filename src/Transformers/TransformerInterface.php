@@ -1,6 +1,6 @@
 <?php
 
-namespace JanPantel\LaravelFluentPlus\Transformers;
+namespace Grogu\FluentPlus\Transformers;
 
 interface TransformerInterface
 {

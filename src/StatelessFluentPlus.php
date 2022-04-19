@@ -1,14 +1,14 @@
 <?php
 
-namespace JanPantel\LaravelFluentPlus;
+namespace Grogu\FluentPlus;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
 use Illuminate\Support\Fluent;
-use JanPantel\LaravelFluentPlus\Transformers\ArrayTransformer;
-use JanPantel\LaravelFluentPlus\Transformers\ObjectTransformer;
-use JanPantel\LaravelFluentPlus\Transformers\TransformerInterface;
-use JanPantel\LaravelFluentPlus\Transformers\CollectionTransformer;
+use Grogu\FluentPlus\Transformers\ArrayTransformer;
+use Grogu\FluentPlus\Transformers\ObjectTransformer;
+use Grogu\FluentPlus\Transformers\TransformerInterface;
+use Grogu\FluentPlus\Transformers\CollectionTransformer;
 
 /**
  * Class StatelessFluentPlus
@@ -18,7 +18,7 @@ use JanPantel\LaravelFluentPlus\Transformers\CollectionTransformer;
  *
  * If you don't mind serialization size the `FluentPlus` class should be used for a better experience.
  *
- * @package JanPantel\LaravelFluentPlus
+ * @package Grogu\FluentPlus
  */
 class StatelessFluentPlus extends Fluent
 {

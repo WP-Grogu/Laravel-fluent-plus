@@ -1,6 +1,6 @@
 <?php
 
-namespace JanPantel\LaravelFluentPlus;
+namespace Grogu\FluentPlus;
 
 class NonRecursiveFluentPlus extends FluentPlus
 {

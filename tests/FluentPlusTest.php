@@ -1,10 +1,10 @@
 <?php
 
-namespace Tests\JanPantel\LaravelFluentPlus;
+namespace Tests\Grogu\FluentPlus;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Fluent;
-use JanPantel\LaravelFluentPlus\FluentPlus;
+use Grogu\FluentPlus\FluentPlus;
 use PHPUnit\Framework\TestCase;
 
 class FluentPlusTest extends TestCase

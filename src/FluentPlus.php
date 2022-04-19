@@ -1,7 +1,6 @@
 <?php
 
-namespace JanPantel\LaravelFluentPlus;
-
+namespace Grogu\FluentPlus;
 
 class FluentPlus extends StatelessFluentPlus
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests\JanPantel\LaravelFluentPlus;
+namespace Tests\Grogu\FluentPlus;
 
-use JanPantel\LaravelFluentPlus\FluentPlus;
-use JanPantel\LaravelFluentPlus\Transformers\TransformerInterface;
+use Grogu\FluentPlus\FluentPlus;
+use Grogu\FluentPlus\Transformers\TransformerInterface;
 use PHPUnit\Framework\TestCase;
 
 class CustomTransformerTest extends TestCase
