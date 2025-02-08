@@ -195,17 +195,26 @@ class StatelessFluentPlus extends Fluent
         return value($default);
     }
 
-
     /**
-     * Check if a given key exists in the attributes
+     * Determine if the data contains a given key.
      *
+     * @param  string|array  $key
      * @return bool
      */
-    public function has(string $key)
+    public function has($key)
     {
-        return isset($this->attributes[$key]);
-    }
+        $keys = is_array($key) ? $key : func_get_args();
 
+        $data = $this->all();
+
+        foreach ($keys as $value) {
+            if (! Arr::has($data, $value)) {
+                return false;
+            }
+        }
+
+        return true;
+    }
 
     /**
      * Returns true if the Fluent is empty, false otherwise
