@@ -215,25 +215,4 @@ class StatelessFluentPlus extends Fluent
 
         return true;
     }
-
-    /**
-     * Returns true if the Fluent is empty, false otherwise
-     *
-     * @return bool
-     */
-    public function isEmpty()
-    {
-        return empty($this->attributes);
-    }
-
-
-    /**
-     * Returns true if the Fluent is not empty, false otherwise
-     *
-     * @return bool
-     */
-    public function isNotEmpty()
-    {
-        return ! $this->isEmpty();
-    }
 }

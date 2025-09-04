@@ -3,8 +3,8 @@
     "description": "A fork from janpantel/laravel-fluent-plus",
     "type": "library",
     "require": {
-        "php": "^8.0",
-        "illuminate/support": ">=9.0"
+        "php": "^8.2",
+        "illuminate/support": ">=12.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^8.5"
